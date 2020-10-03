@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
+#------import the libs
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Pralay_Sarkar.settings")
@@ -20,3 +21,4 @@ if __name__ == "__main__":
             )
         raise
     execute_from_command_line(sys.argv)
+    #----manage the files
